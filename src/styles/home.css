@@ -1,0 +1,91 @@
+.homePageWrapper{
+    height: 100vh;
+    background-color: rgb(21 21 66);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+  }
+  .logoimg{
+    margin-bottom: 20px;
+  }
+  .logo{
+    height: 100px;
+    width: 150px;
+    filter: invert(90%);
+  
+  }
+  .formWrapper{
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    max-width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(32 32 90);
+  }
+  
+  footer{
+    position: fixed;
+    bottom: 0;
+    left: 36.5%;
+  }
+  
+  footer h4{
+    font-size: 16px;
+    font-weight: 500;
+  
+  }
+  
+  footer a{
+   color: #2ef952;
+  }
+  
+  h4.mainLabel{
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 0;
+  }
+  
+  
+  .inputGroup{
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+  .inputBox{
+    padding: 10px;
+    border: none;
+    outline: none;
+    margin-bottom: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    border-bottom: 1px solid grey;
+    background: transparent;
+    color: #eee;
+  }
+  
+  .joinBtn{
+  background-color: #2ef952;
+  }
+  .joinBtn:hover{
+  background-color: #12d135;
+  }
+  
+  .createInfo{
+    font-size: 16px;
+    font-weight: 400px;
+    margin-top: 5px;
+  }
+  
+  .createInfo a{
+    color: #2ef952;
+  }
+  
+  footer a:hover,.createInfo a:hover{
+    color: #12d135;
+   }

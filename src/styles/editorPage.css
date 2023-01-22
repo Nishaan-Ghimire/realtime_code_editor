@@ -1,0 +1,80 @@
+.mainWrapper{
+    display: grid;
+    grid-template-columns: 230px 1fr;
+    height: 100vh;
+}
+
+.aside{
+    background-color: rgb(32 32 90);
+    padding: 16px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+.asideInner{
+    flex: 1;
+}
+
+.clientsList{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+
+.client{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-weight: 400px;
+}
+
+.userName{
+    margin-top: 10px;
+}
+
+.logo{
+    border-bottom: 1px solid rgb(58, 55, 55);
+    
+}
+
+.logoImage{
+    height: 80px;
+ 
+}
+
+.btns{
+    margin-left: 30px;
+}
+.leaveBtn{
+    background-color: red;
+    color: white;
+    width: 130px;
+    font-weight: bold;
+}
+
+.copyBtn{
+    background-color: #0fc230;
+    color: #fff;
+    font-weight: bold;
+
+}
+
+.leaveBtn:hover{
+    background-color: rgb(216, 18, 18);
+    
+}
+
+.copyBtn:hover{
+    background-color: #03961e;
+    
+}
+
+.CodeMirror{
+    height: calc(100vh - 20px);
+    font-size: 20px;
+    line-height: 1.6;
+    padding-top: 20px;
+  }
