@@ -23,8 +23,12 @@ const joinRoom = () =>{
     toast.error('Please enter username and room id');
     return;
   }
-  navigate(`/editor/${roomId}`,{username});
-}  
+  navigate(`/editor/${roomId}`,{
+    state: {
+      username
+},
+});
+};  
 const createNewRoom = (e)=>{
   e.preventDefault();
   const id = uuidv4();
